@@ -16,4 +16,7 @@ public class Purchase {
     private String product;
     private Double price;
     private Integer quantity;
+    
+    @Column(nullable = false)
+    private Long userId;
 }
